@@ -8,7 +8,7 @@ body {
 .container {
     max-width: 600px;
     margin: auto;
-    background: rgb(240, 238, 238);
+    background: #700101;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -33,17 +33,23 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: white;
+    color: rgb(19, 19, 19);
 }
 
 .text-header h1 {
     font-size: 24px;
     font-weight: bold;
 }
+.text-header p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    color: rgb(155, 155, 155);
+}
 
 .text-header h2 {
     font-family: 'Indie Flower', cursive;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .profile {
@@ -65,9 +71,11 @@ body {
     font-weight: bold;
 }
 
+
 .list-section {
     margin-top: 20px;
-    background: white;
+    background: url('../imagens/plano1.png.PNG') no-repeat center center;
+    background-size: cover;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -83,8 +91,14 @@ body {
     padding-left: 20px;
 }
 
+.paragrafo {
+    text-indent: 30px;
+    margin-bottom: 50px;
+}
+
 .why-section {
     margin-top: 20px;
+    font-weight: bold;
 }
 
 .images {
@@ -94,8 +108,8 @@ body {
 }
 
 .images img {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     object-fit: cover;
 }
