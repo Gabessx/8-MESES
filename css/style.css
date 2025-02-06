@@ -139,6 +139,23 @@ body {
     margin-top: 10px;
 }
 
+.continuaction h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.continuaction h2 {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.pulo {
+    text-indent: 0px;
+    margin-bottom: 50px;
+
+}
+
 .ml-4 {
     margin-left: 1rem;
 }
