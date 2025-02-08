@@ -76,9 +76,25 @@ body {
     margin-top: 15px;
 }
 
+.audio-container2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    width: 100%; 
+    flex-basis: 100%; 
+}
+
+
 .audio-text {
     font-size: 14px;
     margin-bottom: 5px;
+    color: white;
+}
+
+.audio-text2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: white;
 }
 
 .list-section {
@@ -114,6 +130,7 @@ body {
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
+    flex-wrap: wrap;
 }
 
 .images img {
